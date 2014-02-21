@@ -13,7 +13,7 @@ Install node dependencies running the following commands in the root directory o
 
 ```shell
 npm install
-
+```
 Running project using :
 
 ```shell
