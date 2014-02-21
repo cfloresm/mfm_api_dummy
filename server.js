@@ -1,6 +1,5 @@
 var express = require('express')
 , url = require("url")
-, swagger = require("swagger-node-express");
  // , url = require("url")
  // , swagger = require("swagger-node-express");
 
@@ -8,7 +7,6 @@ var app = express();
 app.use(express.json());
 app.use(express.urlencoded())
 
-swagger.setAppHandler(app);
 // ## CORS middleware
 //
 // see: http://stackoverflow.com/questions/7067966/how-to-allow-cors-in-express-nodejs
